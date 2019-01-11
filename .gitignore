@@ -1,0 +1,5 @@
+.bundle
+.jekyll-metadata
+vendor
+Gemfile*
+_site
