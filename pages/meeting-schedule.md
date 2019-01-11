@@ -122,7 +122,7 @@ title: "Meeting schedule"
     </tr>
     <tr>
       <td>{% icon warning %}</td>
-      <td><a href="https://csbsju.instructure.com/courses/11420/assignments/113569">Exam 1</a></td>
+      <td><a href="{{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 1 %}">Exam 1</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -257,7 +257,7 @@ title: "Meeting schedule"
     </tr>
     <tr>
       <td>{% icon warning %}</td>
-      <td><a href="https://csbsju.instructure.com/courses/11420/assignments/113570">Exam 2</a></td>
+      <td><a href="{{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 2 %}">Exam 2</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -338,7 +338,7 @@ title: "Meeting schedule"
     </tr>
     <tr>
       <td>{% icon warning %}</td>
-      <td><a href="https://csbsju.instructure.com/courses/11420/assignments/113572">Exam 3</a></td>
+      <td><a href="{{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 3 %}">Exam 3</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -463,7 +463,7 @@ title: "Meeting schedule"
     <tr>
       <td>09-MAY</td>
       <td>{% icon warning %}</td>
-      <td><a href="https://csbsju.instructure.com/courses/11420/assignments/113573">Final exam</a> (08:00&ndash;10:00)</td>
+      <td><a href="{{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Final exam %}">Final exam</a> (08:00&ndash;10:00)</td>
       <td></td>
     </tr>
   </tbody>
