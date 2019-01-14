@@ -1,0 +1,247 @@
+\documentclass[10pt,t,usenames,dvipsnames]{beamer}
+\usetheme{metropolis}           % Use metropolis theme
+
+\ifnotes
+  \hypersetup{final}
+  \usepackage{pgfpages}
+  \setbeamertemplate{note page}[plain]
+  \setbeameroption{show notes on second screen=right}
+  % the following fixes bug which causes normal text to be white instead of
+  % template default when notes are enabled
+  % (see https://tex.stackexchange.com/questions/232168/normal-text-is-invisible-when-using-beamer-with-notes-and-xelatex)
+  \makeatletter 
+  \def\beamer@framenotesbegin{% at beginning of slide
+    \usebeamercolor[fg]{normal text}
+    \gdef\beamer@noteitems{}% 
+    \gdef\beamer@notes{}% 
+  }
+  \makeatother
+\fi
+
+\usepackage{appendixnumberbeamer}
+\usepackage[scale=3]{ccicons}   % creative commons icons
+\usepackage{verbatim}
+
+\setbeamertemplate{itemize item}{}
+
+\title{CSCI 338 --- Algorithm Design and Analysis}
+\date{}
+\author{Jeremy Iverson}
+\institute{College of Saint Benedict \& Saint John's University}
+\begin{document}
+  \maketitle
+
+  \begin{frame}{logistics}
+    \begin{itemize}
+      \setlength\itemsep{10pt}
+      \item instructor
+        \begin{itemize}
+          \item Jeremy Iverson (\href{mailto:jiverson002@csbsju.edu}{\nolinkurl{jiverson002@csbsju.edu}})
+          \item PENGL 213, (320) 363-3083
+          \item office hours: TBD
+        \end{itemize}
+      \item textbook
+        \begin{itemize}
+          \item \emph{Introduction to the Design and Analysis of Algorithms}, 3rd Edition, Levitin
+        \end{itemize}
+      \item website
+        \begin{itemize}
+          \item \url{https://csbsju.instructure.com/courses/11420}
+        \end{itemize}
+    \end{itemize}
+
+    \note{
+      \begin{itemize}
+        \item I prefer to be called Jeremy
+        \item Encourage questions right away
+        \item Emphasize the importance of the Canvas site for finding
+          information about the class
+        \item office hours
+          \begin{itemize}
+            \item Mention outlook calendar \& my home page
+              \begin{itemize}
+                \item For those unfamiliar with Outlook meetings, then they
+                  should schedule another way and we will go over this in
+                  meeting
+              \end{itemize}
+          \end{itemize}
+        \item go through Canvas page organization quickly
+      \end{itemize}
+    }
+  \end{frame}
+
+  \begin{frame}{objectives}
+    \begin{itemize}
+      \setlength\itemsep{10pt}
+      \item \textbf<2>{to use different abstract methodologies to construct
+        algorithms that solve given problems}
+      \item \textbf<3>{to analyze the time and space complexity of algorithms
+        and compare the complexity of different algorithms}
+      \item \textbf<4>{to describe the complexity classes 𝒫 and 𝒩𝒫 and explain
+        why they are important in understanding computational tractability}
+      \item \textbf<5>{to write a good description and analysis of an algorithm}
+    \end{itemize}
+  \end{frame}
+
+  \begin{frame}{evaluation}
+    \begin{itemize}
+      \setlength\itemsep{10pt}
+      \item eight (8) written assignments\\three (3) programming assignments
+        \begin{itemize}%[label=\cdot]
+          \item do your own work
+          \item use each other as resources only
+          \item due dates are strict (no partial credit for late assignments)
+        \end{itemize}
+      \item three (3) topical exams and one (1) cumulative
+        \begin{itemize}%[label=\cdot]
+          \item closed book / open note
+        \end{itemize}
+      \item point distribution
+        \begin{itemize}
+          \item written assignments: 3\% each
+          \item programming assignments: 4\% each
+          \item exams: 13\% each
+          \item final: 25\%
+        \end{itemize}
+    \end{itemize}
+
+    \note{Should be student's own work, may work together but must individual
+      solutions\\}
+    \note{Want to encourage using each other as resources, but do not want some
+      students to rely on other students for answers}
+  \end{frame}
+
+  \begin{frame}[standout]{\mbox{need more info\dots}}
+    \ifnotes
+      \usebeamercolor[white]{normal text} % override bug fix in preamble
+    \fi
+    see~\href{https://csbsju.instructure.com/courses/11790/assignments/syllabus}{\nolinkurl{course} \nolinkurl{syllabus}}!
+  \end{frame}
+
+  \begin{frame}{a good question}
+    \begin{block}{\color{OliveGreen}why bother?}
+      \begin{itemize}
+        \item better debugger
+        \item better programmer
+        \item better problem-solver
+      \end{itemize}
+    \end{block}
+
+    \note{
+      most of you will neither write nor maintain compilers nor will you program
+      in assembly on a regular basis, so then why bother\dots
+
+      \begin{itemize}
+        \setlength\itemsep{10pt}
+        \item better debugger --- improve tracing skill and have a better idea
+          of how things you write are understood by the machine
+        \item better programmer --- debugging is a skill that many
+          ``programmers'' lack, but you will have improved this skill therefore,
+          you will be a better programmer
+        \item better problem-solver --- because of your new understanding of the
+          orgranization of a computer system you will better understand its
+          capabilities and limitations --- you will also gain experience moving
+          between levels of abstraction, thus improving your abstract thinking
+      \end{itemize}
+    }
+  \end{frame}
+
+  \begin{frame}{a look ahead}
+    \begin{itemize}
+      \setlength\itemsep{10pt}
+      \item \textbf<2>{develop a framework for analyzing algorithms}
+      \item \textbf<3>{study some of the fundamental algorithm design
+        techniques}
+      \item \textbf<3>{look at a sample of the important algorithms in CS}
+    \end{itemize}
+
+    \only<2>{\note{we need to be able to reason about the algorithms that we
+      design. we need some way to compare different algorithms that solve the
+      same problem to understand which is better and when\dots bubble sort is
+      easy to understand and implement, however, it is only the right best
+      sorting algorithm under very specific circumstances.}}
+    \only<3>{\note{algorithm design is not a process that starts from a blank
+      slate every time --- complex problem-solving often relies on building
+      blocks or reformulating one problem as another --- we will be learning
+      some of these building blocks}}
+  \end{frame}
+
+  \begin{frame}{activity}
+    \begin{enumerate}
+      \setlength\itemsep{10pt}
+      \item which is better and why, bubble sort or merge sort?
+      \pause
+      \item is there any circumstance when bubble sort is better than merge
+        sort?
+    \end{enumerate}
+  \end{frame}
+
+  \begin{frame}{a bit of parting advice}
+    \begin{itemize}
+      \item remember that this is a 300-level course
+      \pause
+      \item if something is confusing, tell me
+    \end{itemize}
+
+    \only<1->{\note{I expect you to do some learning on your own and come to
+      class prepared to enhance / clarify / correct the understanding the you
+      created. I want to help you explore your understanidng of the material,
+      not necessarily help you gain a basic understanding of the material\\}}
+    \only<2->{\note{otherwise, I am relying on my own experience to decide which
+      material to emphasize and/or clarify\\[1\baselineskip]}}
+  \end{frame}
+
+  \begin{frame}{teaching philosophy}
+    Your job is to empower those you teach; when you do for them what they
+    should be doing for themselves, you create dependency rather than
+    empowerment.
+
+    It is easy to give in to the frustration that results from seeing amazing
+    possibilities for the people you are teaching, and you want it more for them
+    than they want it for themselves. 
+
+    Don’t give in to that frustration! \\
+    \hfill \footnotesize{--- Based on passage from ``Resisting Happiness'' by
+      Matthew Kelly}
+
+    \note{I sincerely believe that all of you can master this material and I
+      want more than anything else this semester, to help you do that!}
+    \note{However, don't expect me to give you answers. And do get frusterated
+      with me when I challenge you to discover the answers for yourself.}
+  \end{frame}
+
+  \begin{frame}[standout]
+    \ifnotes
+      \usebeamercolor[white]{normal text} % override bug fix in preamble
+    \fi
+    questions?
+  \end{frame}
+
+  \appendix
+
+  \begin{frame}{activity}
+    \begin{itemize}
+      \item download this slide deck and follow the instructions on the next
+        slide
+    \end{itemize}
+
+    \note{if there is still time, talk about all of the material for this course
+      being hosted on GitHub, and how they can access it}
+  \end{frame}
+
+  \ifnotes\else
+  \begin{frame}{next slide}
+    \begin{itemize}
+      \item find out what the reading is for Wednesday
+    \end{itemize}
+  \end{frame}
+  \fi
+
+  \begin{frame}[c]
+    \begin{center}\ccbysa\end{center}
+
+    except where otherwise noted, this worked is licensed under
+    \href{http://creativecommons.org/licenses/by-sa/4.0/}{creative commons
+    attribution-sharealike 4.0 international license}
+  \end{frame}
+\end{document}
