@@ -3,10 +3,10 @@ title: "Meeting schedule"
 layout: schedule
 weeks:
 -
-  - topic: "CSCI 338: Introduction"
-    reading: 1
+  - link: "[{% icon ms-ppt %}]({% file slides/00 intro/slides-final.pdf %})"
+    topic: "CSCI 338: Introduction"
   - topic: "Algorithm analysis framework"
-    reading: 2.1
+    reading: 1, 2.1
   - topic: "Asymptotic notation and efficiency classes"
     reading: 2.2
 -
