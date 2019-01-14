@@ -108,9 +108,10 @@ or for grievous infractions, at all.
 ### Evaluation
 The final grade for the course will be based on the percentages shown below.
 
-| Assignments    | 30% |
-| In-class exams | 42% |
-| Final exam     | 28% |
+| Written assignments     | 24% |
+| Programming assignments | 12% |
+| In-class exams          | 39% |
+| Final exam              | 25% |
 
 Grading is mainly based on the performance of each student compared to the class
 as a whole. In general, the following guidelines are followed except in certain
