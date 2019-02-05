@@ -19,23 +19,22 @@ weeks:
 -
   - topic: "Closest-pair and convex-hull using brute force"
     reading: 3.3
+  - topic: "NO CLASS"
   - topic: "Exhaustive search strategies"
     reading: 3.4--3.5
-  - topic: "Decrease-and-conquer sorting"
-    reading: 4.1--4.2
 -
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 1 %})"
-    topic: "Generating combinatorial objects"
+    topic: "Decrease-and-conquer sorting"
+    reading: 4.1--4.2
+  - topic: "Generating combinatorial objects"
     reading: 4.3
   - topic: "Decrease-and-conquer algorithms"
     reading: 4.4--4.5
+-
   - link: "{% icon warning %}"
     topic: "[Exam 1]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 1 %})"
--
-  - topic: "Mergesort"
-    reading: 5.1
-  - topic: "Quicksort"
-    reading: 5.2
+  - topic: "Mergesort and quicksort"
+    reading: 5.1--5.2
   - topic: "Solving traversal and numeric problems by divide-and-conquer"
     reading: 5.3--5.4
 -
