@@ -28,11 +28,10 @@ weeks:
     reading: 4.1--4.2
   - topic: "Generating combinatorial objects"
     reading: 4.3
+  - topic: "NO CLASS"
+-
   - topic: "Decrease-and-conquer algorithms"
     reading: 4.4--4.5
--
-  - link: "{% icon warning %}"
-    topic: "[Exam 1]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 1 %})"
   - topic: "Mergesort and quicksort"
     reading: 5.1--5.2
   - topic: "Solving traversal and numeric problems by divide-and-conquer"
@@ -40,8 +39,7 @@ weeks:
 -
   - topic: "Solving geometric problems by divide-and-conquer"
     reading: 5.5
-  - topic: "Presorting and Gaussian elimination"
-    reading: 6.1--6.2
+  - topic: "NO CLASS"
   - topic: "Balanced search trees"
     reading: 6.3
 -
