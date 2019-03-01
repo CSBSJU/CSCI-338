@@ -4,10 +4,10 @@ title: "Programming assignment 1"
 
 # Introduction
 
-The purpose of this assignment is to implement a relatively simple algorithm
-and experimentally validate its theoretical analysis.
+The purpose of this assignment is to implement an algorithm and experimentally
+validate its theoretical analysis.
 
-## Brute force closest pair
+## Efficient closest pair
 
 You need to write a program that will take as input, a single file containing a
 list of pairs of points, and output to stdout the closest pair of points among
@@ -22,10 +22,10 @@ For example, four points would would be stored in a file as:
 
 ```
 4
-1.2000 2.3000
-3.4000 4.5000
-5.6000 6.7000
-7.8000 8.9000
+0.120000 0.230000
+0.340000 0.450000
+0.560000 0.670000
+0.780000 0.890000
 ```
 
 Your output file MUST output the values to exactly four decimal points of
@@ -55,7 +55,7 @@ closest pair, not the time to read the file.**
 ## Testing
 
 Test files are provided at /usr/people/classes/CS338/data/pa1. There are
-currently three files containing 100, 1000 and 10000 points respectively.
+currently files containing 256 up to 65536 points by powers of two.
 
 The tests file are only provided to get you started. Remember, you will likely
 want to run each experiment on more than one input of the same size so that your
@@ -71,44 +71,44 @@ those provided for testing.
      be limitations like, it only works for XXX files, but not YYY file, or
      challenges that prevented you from completing the assignment.
    * An analysis comparing and contrasting the theoretical analysis of
-     *BruteForceClosestPair* (from the book), with your experimental analysis.
+     *EfficientClosestPair* (from the book), with your experimental analysis.
      Does your experimental analysis support the theoretical analysis from the
      book? Why or why not? *You should include plots to support your
      conclusions.*
 
-**Do NOT include the test files. You will lose points for including test files.
-This will prevent the evaluator from downloading 40+ MB assignments.**
+**Do NOT include the test files. You will lose points for including test
+files.**
 
 ### Additional specifications related to assignment submission
 
 A makefile must be provided to build the program. And an executable file named
-`bfcp` must be included to execute the program. The program should take as an
+`ecp` must be included to execute the program. The program should take as an
 argument, the input file name. The following sequence of commands should work
 for your program:
 
 ```sh
 :> make
-:> ./bfcp 100.pts
+:> ./ecp 256.pts
 ```
 
 If you choose to use an interpreted language, like Java or Python for this, then
 the executable file mentioned above will just be a Bash script that invokes the
 correct interpreter for your chosen language. For example, a Java programmer
-might have a `bfcp` file like looks like the following:
+might have a `ecp` file that looks like the following:
 
 ```bash
 #!/bin/bash
 
 # The $@ will pass any command-line arguments to this script, to the Java
-# program. This of course assumes your Java class was called BFCP.
-java BFCP $@
+# program. This of course assumes your Java class was called ECP.
+java ECP "$@"
 ```
 
 and a makefile that looks like:
 
 ```
-BFCP.class: BFCP.java
-	javac BFCP.java
+ECP.class: ECP.java
+	javac ECP.java
 ```
 
 The point here being that the evaluator can build and run all programs in a
@@ -127,16 +127,16 @@ program:
 <Student ID>/report.pdf
 ```
 
-Submission MUST be in .tar.gz
+Submission MUST be in .tgz
 
 The following sequence of commands should work (*read: complete with no error
 messages reported)* on your submission file:
 
 ```sh
-:> tar xzvf <Student ID>.tar.gz
+:> tar xzvf <Student ID>.tgz
 :> cd <Student ID>
 :> make
-:> test -x bfcp || echo "You have not named your executable correctly or it is not executable"
+:> test -x ecp || echo "You have not named your executable correctly or it is not executable"
 ```
 
 This ensures that your submission is packaged correctly, your directory is named
