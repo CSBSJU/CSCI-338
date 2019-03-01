@@ -45,6 +45,9 @@ title: "Exam 1"
 * Insertion sort
 * Generating permutations
 * Generating subsets
+* Binary search
+* Computing a median (Lomuto partitioning and quick selecting)
+* Searching and insertion in a binary tree
 
 ### Sample questions
 * Chapter 1
