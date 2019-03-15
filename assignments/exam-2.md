@@ -1,5 +1,5 @@
 ---
-title: "Exam 1"
+title: "Exam 2"
 ---
 
 ### Chapter 4
@@ -31,21 +31,18 @@ title: "Exam 1"
   * Radix sort
 
 ### Sample questions
+* Chapter 4
+  * apply any of the well-known algorithms to a problem instance
+  * answer questions about operation of the algorithm, for example
+    * Is it possible to execute this algorithm without any additional storage?
+    * Will the sorting algorithm work with arrays that have equal values?
+    * etc.
 * Chapter 5
   * apply any of the well-known algorithms to a problem instance
-  * answer questions about operation of the algorithm, for example
-    * Is it possible to execute this algorithm without any additional storage?
-    * Will the sorting algorithm work with arrays that have equal values?
-    * etc.
+  * answer questions about operation of the algorithm
 * Chapter 6
   * apply any of the well-known algorithms to a problem instance
-  * answer questions about operation of the algorithm, for example
-    * Is it possible to execute this algorithm without any additional storage?
-    * Will the sorting algorithm work with arrays that have equal values?
-    * etc.
+  * answer questions about operation of the algorithm
 * Chapter 7
   * apply any of the well-known algorithms to a problem instance
-  * answer questions about operation of the algorithm, for example
-    * Is it possible to execute this algorithm without any additional storage?
-    * Will the sorting algorithm work with arrays that have equal values?
-    * etc.
+  * answer questions about operation of the algorithm
