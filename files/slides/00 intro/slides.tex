@@ -20,6 +20,7 @@
 
 \usepackage{appendixnumberbeamer}
 \usepackage[scale=3]{ccicons}   % creative commons icons
+\usepackage[utf8]{inputenc}
 \usepackage{verbatim}
 
 \setbeamertemplate{itemize item}{}
@@ -37,8 +38,11 @@
       \item instructor
         \begin{itemize}
           \item Jeremy Iverson (\href{mailto:jiverson002@csbsju.edu}{\nolinkurl{jiverson002@csbsju.edu}})
-          \item PENGL 213, (320) 363-3083
-          \item office hours: TBD
+          \item MAIN 258, (320) 363-5542
+          \item office hours: \begin{tabular}[t]{rrrcr}
+                                T & 10:00 & - & 11:00 \\
+                                W & 14:00 & - & 15:00
+                              \end{tabular}
         \end{itemize}
       \item textbook
         \begin{itemize}
@@ -46,7 +50,7 @@
         \end{itemize}
       \item website
         \begin{itemize}
-          \item \url{https://csbsju.instructure.com/courses/11420}
+          \item \url{https://csbsju.instructure.com/courses/13537}
         \end{itemize}
     \end{itemize}
 
@@ -77,8 +81,9 @@
         algorithms that solve given problems}
       \item \textbf<3>{to analyze the time and space complexity of algorithms
         and compare the complexity of different algorithms}
-      \item \textbf<4>{to describe the complexity classes 𝒫 and 𝒩𝒫 and explain
-        why they are important in understanding computational tractability}
+      \item \textbf<4>{to describe the complexity classes $\mathcal{P}$ and
+        $\mathcal{NP}$ and explain why they are important in understanding
+        computational tractability}
       \item \textbf<5>{to write a good description and analysis of an algorithm}
     \end{itemize}
   \end{frame}
@@ -86,7 +91,8 @@
   \begin{frame}{evaluation}
     \begin{itemize}
       \setlength\itemsep{10pt}
-      \item eight (8) written assignments\\three (3) programming assignments
+      \item daily written assignments\\
+            three (3) programming assignments
         \begin{itemize}%[label=\cdot]
           \item do your own work
           \item use each other as resources only
@@ -98,7 +104,7 @@
         \end{itemize}
       \item point distribution
         \begin{itemize}
-          \item written assignments: 3\% each
+          \item written assignments: 24\% total
           \item programming assignments: 4\% each
           \item exams: 13\% each
           \item final: 25\%
@@ -115,7 +121,7 @@
     \ifnotes
       \usebeamercolor[white]{normal text} % override bug fix in preamble
     \fi
-    see~\href{https://csbsju.instructure.com/courses/11790/assignments/syllabus}{\nolinkurl{course} \nolinkurl{syllabus}}!
+    see~\href{https://csbsju.instructure.com/courses/13537/assignments/syllabus}{\nolinkurl{course} \nolinkurl{syllabus}}!
   \end{frame}
 
   \begin{frame}{a look ahead}
@@ -129,7 +135,7 @@
 
     \only<2>{\note{we need to be able to reason about the algorithms that we
       design. we need some way to compare different algorithms that solve the
-      same problem to understand which is better and when\dots bubble sort is
+      same problem to understand which is better and when\dots insertion sort is
       easy to understand and implement, however, it is only the right best
       sorting algorithm under very specific circumstances.}}
     \only<3>{\note{algorithm design is not a process that starts from a blank
@@ -141,7 +147,7 @@
   \begin{frame}{activity}
     \begin{enumerate}
       \setlength\itemsep{10pt}
-      \item which is better and why, bubble sort or merge sort?
+      \item which is better and why, insertion sort or merge sort?
       \pause
       \item is there any circumstance when bubble sort is better than merge
         sort?
@@ -190,24 +196,6 @@
   \end{frame}
 
   \appendix
-
-  \begin{frame}{activity}
-    \begin{itemize}
-      \item download this slide deck and follow the instructions on the next
-        slide
-    \end{itemize}
-
-    \note{if there is still time, talk about all of the material for this course
-      being hosted on GitHub, and how they can access it}
-  \end{frame}
-
-  \ifnotes\else
-  \begin{frame}{next slide}
-    \begin{itemize}
-      \item find out what the reading is for Wednesday
-    \end{itemize}
-  \end{frame}
-  \fi
 
   \begin{frame}[c]
     \begin{center}\ccbysa\end{center}

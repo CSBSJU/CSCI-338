@@ -9,7 +9,6 @@ title: "Exam 3"
 
 ### Chapter 8
 * Dynamic programming
-  * Hashing
   * Knapsack
   * Warshall's algorithm
   * Floyd's algorithm

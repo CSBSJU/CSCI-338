@@ -1,8 +1,8 @@
 # Canvas settings.
 canvas:
   prefix: "https://csbsju.instructure.com"
-  course: "11420"
-  start-date: "2019-01-14"
+  course: "13537"
+  start-date: "2020-01-13"
   # Exclude the following files/folders from uploading. Canvas Workflow gives
   # precedence to include over exclude, so you can selectively include
   # files/folders that exist in excluded directories.
