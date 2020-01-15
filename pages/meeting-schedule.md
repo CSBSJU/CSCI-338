@@ -8,7 +8,8 @@ weeks:
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 1 %})"
     topic: "Algorithm analysis framework"
     reading: 1, 2.1
-  - topic: "Asymptotic notation and efficiency classes"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 2 %})"
+    topic: "Asymptotic notation and efficiency classes"
     reading: 2.2
 -
   - topic: "NO CLASS"
