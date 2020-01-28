@@ -13,14 +13,17 @@ weeks:
     reading: 2.2
 -
   - topic: "NO CLASS"
-  - topic: "Analysis of iterative and recursive algorithms"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 3 %})"
+    topic: "Analysis of iterative and recursive algorithms"
     reading: 2.3--2.4
-  - topic: "Examples of algorithm analysis and visualization"
-    reading: 2.5--2.7
+  - topic: "Examples of algorithm analysis"
+    reading: 2.6
 -
-  - topic: "Brute force methods for sorting, search and string matching"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 4 %})"
+    topic: "Brute force methods for sorting, search and string matching"
     reading: 3.1--3.2
-  - topic: "Closest-pair and convex-hull using brute force"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 5 %})"
+    topic: "Closest-pair and convex-hull using brute force"
     reading: 3.3
   - topic: "Exhaustive search strategies"
     reading: 3.4--3.5
