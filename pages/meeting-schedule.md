@@ -25,10 +25,12 @@ weeks:
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 5 %})"
     topic: "Closest-pair and convex-hull using brute force"
     reading: 3.3
-  - topic: "Exhaustive search strategies"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 6 %})"
+    topic: "Exhaustive search strategies"
     reading: 3.4--3.5
 -
-  - topic: "Decrease-and-conquer sorting"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 7 %})"
+    topic: "Decrease-and-conquer sorting"
     reading: 4.1--4.2
   - topic: "Generating combinatorial objects"
     reading: 4.3
