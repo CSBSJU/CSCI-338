@@ -32,7 +32,8 @@ weeks:
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 7 %})"
     topic: "Decrease-and-conquer sorting"
     reading: 4.1--4.2
-  - topic: "Generating combinatorial objects"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 8 %})"
+    topic: "Generating combinatorial objects"
     reading: 4.3
   - topic: "Decrease-and-conquer algorithms"
     reading: 4.4--4.5

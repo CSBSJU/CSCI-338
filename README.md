@@ -85,11 +85,11 @@ submitted for a grade MUST be your own original work. Late assignment
 submissions MAY NOT be accepted.
 
 ### Examinations
-There will be three in-class exams and one cumulative final exam. All exams are
-closed book/open note. All exam times are documented on the [Canvas calendar]
-for this course; you are responsible for keeping those times clear in your
-schedule. Students MAY be allowed to make up missed exams in the case of an
-excused absence and at the discretion of the instructor.
+There will be four take-home exams. All exams are open book/open note. The due
+dates for all exams are documented on the [Canvas calendar] for this course; you
+are responsible for keeping those times clear in your schedule. Students MAY be
+allowed to make up missed exams in the case of an excused absence and at the
+discretion of the instructor.
 
 ### Emails / Outlook meeting invitations
 I welcome emails and Outlook meeting invitations from students. However, you
@@ -110,8 +110,7 @@ The final grade for the course will be based on the percentages shown below.
 
 | Written assignments     | 24% |
 | Programming assignments | 12% |
-| In-class exams          | 39% |
-| Final exam              | 25% |
+| Take-home exams         | 64% |
 
 Grading is mainly based on the performance of each student compared to the class
 as a whole. In general, the following guidelines are followed except in certain
