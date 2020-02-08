@@ -81,10 +81,8 @@ sorted order, not the time to read the file.**
 Test files are provided at /usr/people/classes/CS338/data/pa1. There are
 currently several graphs there of varying sizes and densities.
 
-The tests file are only provided to get you started. Remember, you will likely
-want to run each experiment on multiple inputs so that your results are not
-skewed by the edge densities in the files that were provided. Your solution will
-be evaluated with a different set of files than those provided for testing.
+The tests file are only provided to get you started. Your solution will be
+evaluated with a different set of files than those provided for testing.
 
 ## What you need to turn in
 
@@ -96,6 +94,8 @@ be evaluated with a different set of files than those provided for testing.
    * A description of anything that I should know about your program. This could
      be limitations like, it only works for XXX files, but not YYY file, or
      challenges that prevented you from completing the assignment.
+   * A real-world problem that this algorithm could help to solve and a brief
+     description of how this algorithm will be useful for solving it.
 
 **Do NOT include the test files. You will lose points for including test
 files.**

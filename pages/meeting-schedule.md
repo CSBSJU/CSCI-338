@@ -38,7 +38,8 @@ weeks:
   - topic: "Decrease-and-conquer algorithms"
     reading: 4.4--4.5
 -
-  - topic: "Mergesort and quicksort"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 10 %})"
+    topic: "Mergesort and quicksort"
     reading: 5.1--5.2
   - topic: "Solving traversal and numeric problems by divide-and-conquer"
     reading: 5.3--5.4
