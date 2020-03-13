@@ -41,14 +41,14 @@ end vertex. If you want to be sure, Linux has a nice utility called `sort` to
 help you out:
 
 ```
-:> sort -c -n -k1 k2 graph.ij > graph.ij.sorted
+:> sort -c -n -k1,2 graph.ij
 ```
 
 will check a file to see if it is sorted according to the specifications above,
 and
 
 ```
-:> sort -n -k1 k2 graph.ij > graph.ij.sorted
+:> sort -n -k1,2 graph.ij > graph.ij.sorted
 ```
 
 will give you the correctly sorted version of graph.ij, stored in a file called

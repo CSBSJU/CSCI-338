@@ -54,7 +54,7 @@ closest pair, not the time to read the file.**
 
 ## Testing
 
-Test files are provided at /usr/people/classes/CS338/data/pa1. There are
+Test files are provided at /usr/people/classes/CS338/data/pa2. There are
 currently files containing 256 up to 65536 points by powers of two.
 
 The tests file are only provided to get you started. Remember, you will likely
@@ -67,6 +67,9 @@ those provided for testing.
 
 1. The source code of your programs.
 1. A short report (PDF format) including the following:
+   * The approach that you took to implementing this algorithm, i.e., were you
+     able to implement the algorithm exactly as described in the book, did you
+     need to make any modifications to it, etc?
    * A description of anything that I should know about your program. This could
      be limitations like, it only works for XXX files, but not YYY file, or
      challenges that prevented you from completing the assignment.

@@ -41,32 +41,36 @@ weeks:
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 10 %})"
     topic: "Mergesort and quicksort"
     reading: 5.1--5.2
+  - link: "[{% icon warning %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 1 %})"
+    topic: "Catch-up"
   - topic: "Solving traversal and numeric problems by divide-and-conquer"
     reading: 5.3--5.4
-  - topic: "Solving geometric problems by divide-and-conquer"
-    reading: 5.5
 -
-  - topic: "Balanced search trees"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 12 %})"
+    topic: "Solving geometric problems by divide-and-conquer"
+    reading: 5.5
+  - topic: "Closest-pair by divide-and-conquer cont'd"
+  - topic: "Closest-pair by divide-and-conquer cont'd"
+-
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 13 %})"
+    topic: "Balanced search trees"
     reading: 6.3
-  - topic: "Heaps and heapsort, Horner's rule"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 14 %})"
+    topic: "Heaps and heapsort, Horner's rule"
     reading: 6.4--6.5
   - topic: "Problem reduction"
     reading: 6.6
 -
+  - topic: "NO CLASS"
+  - topic: "NO CLASS"
+  - topic: "NO CLASS"
+-
   - topic: "Space/time trade-offs in sorting and string matching"
     reading: 7.1--7.2
-  - topic: "Hashing"
+  - topic: "NO CLASS"
     reading: 7.3
-  - topic: "B-trees"
+  - topic: "NO CLASS"
     reading: 7.4
--
-  - topic: "NO CLASS"
-  - topic: "NO CLASS"
-  - topic: "NO CLASS"
--
-  - topic: "TBD"
-  - topic: "NO CLASS"
-  - topic: "NO CLASS"
 -
   - topic: "Introduction to dynamic programming"
     reading: 8.1
