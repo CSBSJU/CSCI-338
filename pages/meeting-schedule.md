@@ -72,11 +72,18 @@ weeks:
   - topic: "NO CLASS"
     reading: 7.4
 -
-  - topic: "Introduction to dynamic programming"
+  - topic: "NO CLASS"
+  - topic: "NO CLASS"
+  - topic: "NO CLASS"
+-
+  - link: "[{% icon media %}](https://youtu.be/lZZ7VyhqlZk){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 18 %})"
+    topic: "Introduction to dynamic programming"
     reading: 8.1
-  - topic: "The knapsack problem, memory functions"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 19 %})"
+    topic: "The knapsack problem, memory functions"
     reading: 8.2
-  - topic: "Warshalls' algorithm and Floyd's algorithm"
+  - link: "[{% icon media %}](https://youtu.be/Zh8cg-hy_qE){:.inline_disabled}"
+    topic: "Warshalls' algorithm and Floyd's algorithm"
     reading: 8.4
 -
   - topic: "The greedy method and Prim's algorithm"
@@ -110,10 +117,10 @@ weeks:
     reading: 12.2
   - topic: "Approximation algorithms"
     reading: 12.3
--
-  - topic: "Algorithms for solving nonlinear equations"
-    reading: 12.4
-  - topic: "TBD"
-  - topic: "Conclusion and review"
-    reading: Epilogue
+#-
+#  - topic: "Algorithms for solving nonlinear equations"
+#    reading: 12.4
+#  - topic: "TBD"
+#  - topic: "Conclusion and review"
+#    reading: Epilogue
 ---

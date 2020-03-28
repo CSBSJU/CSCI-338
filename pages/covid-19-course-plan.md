@@ -11,6 +11,13 @@ following plan is articulated:
 1. Each week, three problem-sets will be posted, similar in spirit to the daily
    assignments we have now, which will be submitted electronically and due the
    following Sunday [*AOE*][aoe].
+* According to the [meeting schedule][schedule], take-home exams will be
+  administered. **There will be one fewer mid-term exams.** Details to follow.
+
+### Synchronous Q&A sessions
+* During our regularly scheduled class times, I will host a live Q&A via
+  [Zoom][zoom-class]. See [here][zoom-instructions] for instructions on using Zoom. These sessions will be recorded for future reference (*pending
+  my figuring out how to do this*).
 
 ## Synchronous digital office hours
 1. I will be available for digital office hours, conducted using whichever mode
@@ -23,3 +30,6 @@ following plan is articulated:
 
 <!-- Links -->
 [aoe]: https://en.wikipedia.org/wiki/Anywhere_on_Earth
+[schedule]: {{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/pages/meeting-schedule
+[zoom-class]: https://csbsju.zoom.us/j/493588172
+[zoom-instructions]: https://www.csbsju.edu/instructional-technology/classroom-and-a/v-support/zoom-conferencing
