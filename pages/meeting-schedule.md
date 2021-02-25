@@ -74,46 +74,54 @@ weeks:
 -
   - topic: "NO CLASS"
   - topic: "NO CLASS"
-  - topic: "NO CLASS"
+  - link: "[{% icon media %}](https://youtu.be/lZZ7VyhqlZk){:.inline_disabled}"
+    topic: "NO CLASS"
 -
-  - link: "[{% icon media %}](https://youtu.be/lZZ7VyhqlZk){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 18 %})"
+  - link: "[{% icon media %}](https://youtu.be/Zh8cg-hy_qE){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 18 %})"
     topic: "Introduction to dynamic programming"
     reading: 8.1
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 19 %})"
+  - link: "[{% icon media %}](https://youtu.be/BXxkkdrLUoo){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 19 %})"
     topic: "The knapsack problem, memory functions"
     reading: 8.2
-  - link: "[{% icon media %}](https://youtu.be/Zh8cg-hy_qE){:.inline_disabled}"
-    topic: "Warshalls' algorithm and Floyd's algorithm"
+  - topic: "Warshalls' algorithm and Floyd's algorithm"
     reading: 8.4
 -
-  - topic: "The greedy method and Prim's algorithm"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 21 %})"
+    topic: "The greedy method and Prim's algorithm"
     reading: 9.1
-  - topic: "Kruskal's algorithm and Dijkstra's algorithm"
+  - link: "[{% icon media %}](https://youtu.be/pRLkRUO-6hM){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 22 %})"
+    topic: "Kruskal's algorithm and Dijkstra's algorithm"
     reading: 9.2--9.3
-  - topic: "Huffman trees and codes"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 23 %})"
+    topic: "Huffman trees and codes"
     reading: 9.4
 -
-  - topic: "The maximum-flow problem"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 24 %})"
+    topic: "The maximum-flow problem"
     reading: 10.2
-  - topic: "Other algorithms using iterative improvement"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 25 %})"
+    topic: "Other algorithms using iterative improvement"
     reading: 10.3--10.4
-  - topic: "TBD"
+  - topic: "NO CLASS"
 -
-  - topic: "Lower bound arguments"
+  - link: "[{% icon warning %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 2 %})"
+    topic: "Lower bound arguments"
     reading: 11.1
   - topic: "Decision trees"
     reading: 11.2
-  - topic: "NO CLASS"
--
-  - topic: "NO CLASS"
   - topic: "𝒫, 𝒩𝒫, and Cook's theorem"
     reading: 11.3
+-
   - topic: "Challenges of numerical algorithms"
     reading: 11.4
+  - topic: "TBD"
+  - topic: "TBD"
 -
-  - topic: "Backtracking"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 26 %})"
+    topic: "Backtracking"
     reading: 12.1
-  - topic: "Branch-and-bound"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 27 %})"
+    topic: "Branch-and-bound"
     reading: 12.2
   - topic: "Approximation algorithms"
     reading: 12.3
