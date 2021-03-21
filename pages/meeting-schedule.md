@@ -1,25 +1,27 @@
 ---
 title: "Meeting schedule"
-layout: schedule
+layout: schedule-block
 weeks:
 -
-  - link: "[{% icon ms-ppt %}]({% file slides/00 intro/slides-final.pdf %})"
+  - date: 22-MAR
+    link: "[{% icon ms-ppt %}]({% file slides/00 intro/slides-final.pdf %})"
     topic: "CSCI 338: Introduction"
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 1 %})"
     topic: "Algorithm analysis framework"
     reading: 1, 2.1
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 2 %})"
+-
+  - date: 23-MAR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 2 %})"
     topic: "Asymptotic notation and efficiency classes"
     reading: 2.2
--
-  - topic: "NO CLASS"
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 3 %})"
     topic: "Analysis of iterative and recursive algorithms"
     reading: 2.3--2.4
   - topic: "Examples of algorithm analysis"
     reading: 2.6
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 4 %})"
+  - date: 25-MAR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 4 %})"
     topic: "Brute force methods for sorting, search and string matching"
     reading: 3.1--3.2
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 5 %})"
@@ -29,7 +31,8 @@ weeks:
     topic: "Exhaustive search strategies"
     reading: 3.4--3.5
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 7 %})"
+  - date: 26-MAR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 7 %})"
     topic: "Decrease-and-conquer sorting"
     reading: 4.1--4.2
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 8 %})"
@@ -38,7 +41,8 @@ weeks:
   - topic: "Decrease-and-conquer algorithms"
     reading: 4.4--4.5
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 10 %})"
+  - date: 29-MAR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 10 %})"
     topic: "Mergesort and quicksort"
     reading: 5.1--5.2
   - link: "[{% icon warning %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 1 %})"
@@ -46,13 +50,15 @@ weeks:
   - topic: "Solving traversal and numeric problems by divide-and-conquer"
     reading: 5.3--5.4
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 12 %})"
+  - date: 30-MAR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 12 %})"
     topic: "Solving geometric problems by divide-and-conquer"
     reading: 5.5
   - topic: "Closest-pair by divide-and-conquer cont'd"
   - topic: "Closest-pair by divide-and-conquer cont'd"
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 13 %})"
+  - date: 01-APR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 13 %})"
     topic: "Balanced search trees"
     reading: 6.3
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 14 %})"
@@ -61,50 +67,46 @@ weeks:
   - topic: "Problem reduction"
     reading: 6.6
 -
-  - topic: "NO CLASS"
-  - topic: "NO CLASS"
-  - topic: "NO CLASS"
--
-  - topic: "Space/time trade-offs in sorting and string matching"
+  - date: 02-APR
+    topic: "Space/time trade-offs in sorting and string matching"
     reading: 7.1--7.2
-  - topic: "NO CLASS"
+  - topic: ""
     reading: 7.3
-  - topic: "NO CLASS"
+  - topic: ""
     reading: 7.4
 -
-  - topic: "NO CLASS"
-  - topic: "NO CLASS"
-  - link: "[{% icon media %}](https://youtu.be/lZZ7VyhqlZk){:.inline_disabled}"
-    topic: "NO CLASS"
--
-  - link: "[{% icon media %}](https://youtu.be/Zh8cg-hy_qE){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 18 %})"
+  - date: 05-APR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 18 %})"
     topic: "Introduction to dynamic programming"
     reading: 8.1
-  - link: "[{% icon media %}](https://youtu.be/BXxkkdrLUoo){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 19 %})"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 19 %})"
     topic: "The knapsack problem, memory functions"
     reading: 8.2
   - topic: "Warshalls' algorithm and Floyd's algorithm"
     reading: 8.4
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 21 %})"
+  - date: 06-APR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 21 %})"
     topic: "The greedy method and Prim's algorithm"
     reading: 9.1
-  - link: "[{% icon media %}](https://youtu.be/pRLkRUO-6hM){:.inline_disabled}&nbsp;&nbsp;[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 22 %})"
+  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 22 %})"
     topic: "Kruskal's algorithm and Dijkstra's algorithm"
     reading: 9.2--9.3
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 23 %})"
     topic: "Huffman trees and codes"
     reading: 9.4
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 24 %})"
+  - date: 08-APR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 24 %})"
     topic: "The maximum-flow problem"
     reading: 10.2
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 25 %})"
     topic: "Other algorithms using iterative improvement"
     reading: 10.3--10.4
-  - topic: "NO CLASS"
+  - topic: ""
 -
-  - link: "[{% icon warning %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 2 %})"
+  - date: 09-APR
+    link: "[{% icon warning %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Exam 2 %})"
     topic: "Lower bound arguments"
     reading: 11.1
   - topic: "Decision trees"
@@ -112,12 +114,14 @@ weeks:
   - topic: "𝒫, 𝒩𝒫, and Cook's theorem"
     reading: 11.3
 -
-  - topic: "Challenges of numerical algorithms"
+  - date: 12-APR
+    topic: "Challenges of numerical algorithms"
     reading: 11.4
   - topic: "TBD"
   - topic: "TBD"
 -
-  - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 26 %})"
+  - date: 13-APR
+    link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 26 %})"
     topic: "Backtracking"
     reading: 12.1
   - link: "[{% icon edit %}]({{ site.canvas.prefix }}/courses/{{ site.canvas.course }}/assignments/{% assignment Assignment 27 %})"
@@ -125,10 +129,8 @@ weeks:
     reading: 12.2
   - topic: "Approximation algorithms"
     reading: 12.3
-#-
-#  - topic: "Algorithms for solving nonlinear equations"
-#    reading: 12.4
-#  - topic: "TBD"
-#  - topic: "Conclusion and review"
-#    reading: Epilogue
+-
+  - date: 15-APR
+    topic: "Conclusion and review"
+    reading: Epilogue
 ---
